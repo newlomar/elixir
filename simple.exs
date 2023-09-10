@@ -33,3 +33,15 @@ list = [1, 2, true, 3]
 # IO.puts(list)
 
 # IO.inspect list
+
+IO.inspect list
+
+list = [1, 2, 3] ++ [4, 5, 6]
+
+IO.inspect list
+
+addTailToList = fn list -> list ++ [4, 5, 6] end
+
+IO.inspect list
+
+IO.inspect addTailToList.(list)
