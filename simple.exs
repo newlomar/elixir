@@ -19,3 +19,9 @@ add = fn a,b -> a + b end
 # IO.puts(double.(2))
 
 #
+
+x = 42
+
+IO.puts((fn -> x = 0 end).())
+
+IO.puts(x)
