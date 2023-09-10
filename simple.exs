@@ -30,7 +30,7 @@
 
 list = [1, 2, 3]
 
-# IO.puts(list)
+# IO.puts(list) # generates an error
 
 # IO.inspect list
 
@@ -50,5 +50,8 @@ list = [1, 2, 3]
 
 # IO.inspect removeSpecifiedTail.(list)
 
-IO.puts(hd(list))
-IO.puts(tl(list))
+# IO.puts(hd(list))
+
+# IO.puts(tl(list)) # prints nothing
+
+# IO.inspect(tl(list)) #prints tail of the list
