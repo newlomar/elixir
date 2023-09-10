@@ -28,20 +28,22 @@
 
 #
 
-list = [1, 2, true, 3]
+list = [1, 2, 3, true, false]
 
 # IO.puts(list)
 
 # IO.inspect list
 
-IO.inspect list
+# IO.inspect list
 
 # list = [1, 2, 3] ++ [4, 5, 6]
 
 # IO.inspect list
 
-addTailToList = fn list -> list ++ [4, 5, 6] end
+addSpecifiedTailToList = fn list -> list ++ [4, 5, 6] end
+
+# IO.inspect list
+
+addSpecifiedTailToList.(list)
 
 IO.inspect list
-
-IO.inspect addTailToList.(list)
