@@ -1,6 +1,6 @@
 # IO.puts("Hello world from Elixir")
 
-add = fn a,b -> a + b end
+# add = fn a,b -> a + b end
 
 # IO.puts(add.(1, 2))
 
@@ -20,8 +20,12 @@ add = fn a,b -> a + b end
 
 #
 
-x = 42
+# x = 42
 
-IO.puts((fn -> x = 0 end).())
+# IO.puts((fn -> x = 0 end).())
 
-IO.puts(x)
+# IO.puts(x)
+
+#
+
+IO.puts(length [1, 2, true, 3])
