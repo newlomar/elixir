@@ -36,9 +36,9 @@ list = [1, 2, true, 3]
 
 IO.inspect list
 
-list = [1, 2, 3] ++ [4, 5, 6]
+# list = [1, 2, 3] ++ [4, 5, 6]
 
-IO.inspect list
+# IO.inspect list
 
 addTailToList = fn list -> list ++ [4, 5, 6] end
 
