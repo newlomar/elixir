@@ -56,4 +56,4 @@ list = [1, 2, 3]
 
 # IO.inspect(tl(list)) #prints tail of the list
 
-IO.puts(hd([])) # Getting the head or the tail of an empty list throws an error
+# IO.puts(hd([])) # Getting the head or the tail of an empty list throws an error
