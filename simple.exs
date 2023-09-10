@@ -32,4 +32,4 @@ list = [1, 2, true, 3]
 
 # IO.puts(list)
 
-IO.inspect list
+# IO.inspect list
