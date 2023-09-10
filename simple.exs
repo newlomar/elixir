@@ -28,4 +28,8 @@
 
 #
 
-IO.puts(length [1, 2, true, 3])
+list = [1, 2, true, 3]
+
+# IO.puts(list)
+
+IO.inspect list, label: ""
