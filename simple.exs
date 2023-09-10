@@ -50,8 +50,10 @@ list = [1, 2, 3]
 
 # IO.inspect removeSpecifiedTail.(list)
 
-IO.inspect(hd(list))
+# IO.puts(hd(list)) # here puts or inspect works
 
 # IO.puts(tl(list)) # prints nothing
 
 # IO.inspect(tl(list)) #prints tail of the list
+
+IO.puts(hd([])) # Getting the head or the tail of an empty list throws an error
