@@ -46,4 +46,4 @@ addSpecifiedTailToList = fn list -> list ++ [4, 5, 6] end
 
 addSpecifiedTailToList.(list)
 
-IO.inspect list
+IO.inspect addSpecifiedTailToList.(list)
