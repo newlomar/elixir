@@ -28,11 +28,11 @@
 
 #
 
-list = [1, 2, 3, true, false]
+list = [1, 2, 3]
 
 # IO.puts(list)
 
-IO.inspect list
+# IO.inspect list
 
 # IO.inspect list
 
@@ -46,6 +46,9 @@ IO.inspect list
 
 # addSpecifiedTailToList.(list)
 
-removeSpecifiedTail =  fn list -> list -- [true, false] end
+# removeSpecifiedTail =  fn list -> list -- [true, false] end
 
-IO.inspect removeSpecifiedTail.(list)
+# IO.inspect removeSpecifiedTail.(list)
+
+IO.puts(hd(list))
+IO.puts(tl(list))
