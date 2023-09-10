@@ -50,7 +50,7 @@ list = [1, 2, 3]
 
 # IO.inspect removeSpecifiedTail.(list)
 
-# IO.puts(hd(list))
+IO.inspect(hd(list))
 
 # IO.puts(tl(list)) # prints nothing
 
